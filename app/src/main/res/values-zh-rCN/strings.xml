@@ -1,0 +1,61 @@
+<resources>
+    //activity_title
+    <string name="login_label">账号登入</string>
+    <string name="main_menu_label">财产资讯表单页面</string>
+    <string name="camera_label">camera_taking</string>
+
+    //activity_login
+    <string name="login_comment">请输入账号及密码。</string>
+    <string name="login_main">账号</string>
+    <string name="login_login_hint">在此输入账号。</string>
+    <string name="login_password">密码</string>
+    <string name="login_password_hint">在此输入密码。</string>
+    <string name="login_button">登录</string>
+
+    //activity_main_menu
+    <string name="prop_num">财产编号：</string>
+    <string name="prop_name">财产名称：</string>
+    <string name="prop_pri">财产价钱 - </string>
+    <string name="prop_spec">财产规格：</string>
+    <string name="prop_date">购买日期 - </string>
+    <string name="prop_life">使用年限 - </string>
+    <string name="cust_name">保管人：</string>
+    <string name="pic_taker">照片记录人：</string>
+    <string name="user_name">使用者/借用人：</string>
+    <string name="pic_date">照片记录日期：</string>
+    <string name="prop_sta">财产状态 - </string>
+    <string name="pic_cheese">拍照</string>
+    <string name="choose_album">从相簿中选择相片（目前无作用）</string>
+    <string name="got_it">确认传送（目前无作用）</string>
+
+    <string name="menu_logout">退出登入</string>
+
+    //activity_camera
+    <string name="take_pic">打开相机拍摄照片</string>
+    <string name="easyocr">标籤辨识</string>
+    <string name="back">返回财产表单页面</string>
+    <string name="ocr_label">光学字符辨识阶段</string>
+
+    //status_report
+    <string name="login_success">登录成功！欢迎您！中心成员！</string>
+    <string name="login_failure">密码或账号错误！请重试！</string>
+    <string name="propSta_dty">已报废</string>
+    <string name="propSta_act">使用中</string>
+    <string name="texx_label">Tesseract识别</string>
+    <string name="register_name">研究生姓名：</string>
+    <string name="register_group">所属组别</string>
+    <string name="register_username">用户名</string>
+    <string name="register_password">密码</string>
+    <string name="register_register_buttom">注册</string>
+    <string name="register_name_hint">在此输入你的名字</string>
+    <string name="register_username_hint">在此输入你想使用的注册名</string>
+    <string name="register_password_hint">在此输入设定的密码</string>
+    <string name="login_register_here">→点此注册！←</string>
+    <string name="register_back_to_login">→返回注册页面←</string>
+    <string name="back_to_mainmenu">返回主菜单</string>
+    <string name="user_config_back_to_mainmenu">返回主菜单</string>
+    <string name="user_config_label">账号资料</string>
+    <string name="register_label">注册</string>
+
+
+</resources>

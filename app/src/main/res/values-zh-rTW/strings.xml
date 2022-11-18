@@ -1,0 +1,62 @@
+<resources>
+    //activity_title
+    <string name="login_label">賬戶登入</string>
+    <string name="main_menu_label">財產資訊表單頁面</string>
+    <string name="camera_label">camera_taking</string>
+
+    //activity_login
+    <string name="login_comment">請輸入賬戶及密碼。</string>
+    <string name="login_main">賬戶</string>
+    <string name="login_login_hint">在此輸入賬戶。</string>
+    <string name="login_password">密碼</string>
+    <string name="login_password_hint">在此輸入密碼。</string>
+    <string name="login_button">登入</string>
+
+    //activity_main_menu
+    <string name="prop_num">財產編號：</string>
+    <string name="prop_name">財產名稱：</string>
+    <string name="prop_pri">財產價錢 - </string>
+    <string name="prop_spec">財產規格：</string>
+    <string name="prop_date">購買日期 - </string>
+    <string name="prop_life">使用年限 - </string>
+    <string name="cust_name">保管人：</string>
+    <string name="pic_taker">照片記錄人：</string>
+    <string name="user_name">使用者/借用人：</string>
+    <string name="pic_date">照片記錄日期：</string>
+    <string name="prop_sta">財產狀態 - </string>
+    <string name="pic_cheese">拍照</string>
+    <string name="choose_album">從相簿中選擇相片（目前無作用）</string>
+    <string name="got_it">確認傳送（目前無作用）</string>
+
+    <string name="menu_logout">退出登入</string>
+
+    //activity_camera
+    <string name="take_pic">打開相機拍攝照片</string>
+    <string name="easyocr">標籤辨識</string>
+    <string name="back">返回財產表單頁面</string>
+    <string name="ocr_label">光學字元辨識階段</string>
+
+    //status_report
+    <string name="login_success">登入成功！歡迎您！中心成員！</string>
+    <string name="login_failure">密碼或賬戶錯誤！請重試！</string>
+    <string name="propSta_dty">已報廢</string>
+    <string name="propSta_act">使用中</string>
+    <string name="texx_label">Tesseract辨識</string>
+
+    <string name="register_group">所屬組別</string>
+    <string name="register_username">用戶名</string>
+    <string name="register_password">密碼</string>
+    <string name="register_register_buttom">註冊</string>
+    <string name="register_name_hint">在此輸入你的名字</string>
+    <string name="register_username_hint">在此輸入你想使用的註冊名</string>
+    <string name="register_name">研究生姓名：</string>
+    <string name="register_password_hint">在此輸入設置的密碼</string>
+    <string name="login_register_here">→註冊請點此！←</string>
+    <string name="register_back_to_login">→返回註冊界面←</string>
+    <string name="back_to_mainmenu">返回主選單</string>
+    <string name="user_config_back_to_mainmenu">返回主選單</string>
+    <string name="user_config_label">賬戶資料</string>
+    <string name="register_label">註冊</string>
+
+
+</resources>

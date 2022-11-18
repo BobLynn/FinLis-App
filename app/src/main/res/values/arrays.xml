@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="LabGroupValue">
+        <item>請選擇組別</item>
+        <item>人工智慧物聯網組</item>
+        <item>積體電路與計算機系統組</item>
+        <item>人工智慧系統整合組</item>
+        <item>人工智慧機器人碩士班</item>
+        <item>在職專班</item>
+    </string-array>
+
+</resources>

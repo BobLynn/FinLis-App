@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PropertyFormActivity">
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Hello World!"-->
+    <!--        />-->
+
+
+
+    <ScrollView
+        android:id="@+id/scroll_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbarStyle="insideInset">
+
+<!--        &lt;!&ndash;    拍照&ndash;&gt;-->
+<!--        <Button-->
+<!--            android:id="@+id/picCheese"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/pic_cheese" />-->
+
+<!--        &lt;!&ndash;    選擇照片&ndash;&gt;-->
+<!--        <Button-->
+<!--            android:id="@+id/chooseAlbum"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/choose_album" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/ocrTime"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Open OCR Page" />-->
+
+<!--        &lt;!&ndash;    確認送出&ndash;&gt;-->
+<!--        <Button-->
+<!--            android:id="@+id/gotIt"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/got_it" />-->
+
+
+<!--        &lt;!&ndash;    財產名字&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/prop_name" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/propName"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash;    財產編號&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/prop_num" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/propNum"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash;    財產價格&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/prop_pri" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/propPri"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash;    財產規格&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/prop_spec" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/propSpec"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash;    購買日期&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/prop_date" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/propDate"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash;    使用年限&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/prop_life" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/propLife"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash;    保管人&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/cust_name" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/custName"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash;    照片記錄人&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/pic_taker" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/picTaker"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash;    使用者/借用人&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/user_name" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/userName"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash;    照片記錄日期&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/pic_date" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/picDate"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash;    財產狀態&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="@string/prop_sta" />-->
+
+<!--            &lt;!&ndash;        <EditText&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:id="@+id/propSta" />&ndash;&gt;-->
+
+<!--            <RadioGroup-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+<!--                <RadioButton-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/propSta_act"/>-->
+<!--                <RadioButton-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:text="@string/propSta_dty"/>-->
+
+<!--            </RadioGroup>-->
+
+
+<!--        </LinearLayout>-->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--    拍照-->
+            <Button
+                android:id="@+id/cameraPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pic_cheese" />
+
+
+            <!--    選擇照片-->
+            <Button
+                android:id="@+id/chooseAlbum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_album" />
+
+
+            <Button
+                android:id="@+id/mlkitOCR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open OCR Page" />
+
+
+            <!--    確認送出-->
+            <Button
+                android:id="@+id/gotIt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/got_it" />
+
+            <!--    財產名字-->
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/prop_name" />
+
+            <EditText
+                android:id="@+id/propName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--    財產編號-->
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/prop_num" />
+
+            <EditText
+                android:id="@+id/propNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--    財產價格-->
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/prop_pri" />
+
+            <EditText
+                android:id="@+id/propPri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--    財產規格-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prop_spec" />
+
+            <EditText
+                android:id="@+id/propSpec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--    購買日期-->
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/prop_date" />
+
+            <EditText
+                android:id="@+id/propDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--    使用年限-->
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/prop_life" />
+
+            <EditText
+                android:id="@+id/propLife"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--    保管人-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cust_name" />
+
+            <EditText
+                android:id="@+id/custName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--    照片記錄人-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pic_taker" />
+
+            <EditText
+                android:id="@+id/picTaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--    使用者/借用人-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_name" />
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--    照片記錄日期-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pic_date" />
+
+            <EditText
+                android:id="@+id/picDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--    財產狀態-->
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/prop_sta" />
+
+            <!--        <EditText-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:id="@+id/propSta" />-->
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/propSta_act"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:text="@string/propSta_dty"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/logoutBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_logout" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--    登出-->
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

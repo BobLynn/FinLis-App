@@ -1,0 +1,63 @@
+<resources>
+    //activity_label
+    <string name="login_label">Login</string>
+    <string name="register_label">Register</string>
+    <string name="main_menu_label">Property Form</string>
+    <string name="camera_label">camera_taking</string>
+    <string name="ocr_label">OCR Phase</string>
+    <string name="texx_label">Tesseract Recognition</string>
+    <string name="user_config_label">User Config</string>
+
+    //activity_login
+    <string name="login_comment">Please input your ID and Password.</string>
+    <string name="login_login_hint">Key in your ID.</string>
+    <string name="login_password_hint">Key in your password.</string>
+    <string name="login_main">Account</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_register_here">→REGISTER HERE!←</string>
+
+    //activity_register
+    <string name="register_name">STUDENT\'S NAME:</string>
+    <string name="register_group">GROUP</string>
+    <string name="register_username">USERNAME</string>
+    <string name="register_password">PASSWORD</string>
+    <string name="register_register_buttom">REGISTOR</string>
+    <string name="register_name_hint">Input your name here.</string>
+    <string name="register_username_hint">Input your username here.</string>
+    <string name="register_password_hint">Input your password here.</string>
+    <string name="register_back_to_login">→BACK TO LOGIN PAGE←</string>
+
+    //activity_user_config
+    <string name="user_config_back_to_mainmenu">BACK TO MAIN MENU</string>
+
+    //activity_main_menu
+    <string name="prop_num">Number:</string>
+    <string name="prop_name">Name:</string>
+    <string name="prop_pri">Price - </string>
+    <string name="prop_spec">Specification:</string>
+    <string name="prop_date">Date - </string>
+    <string name="prop_life">Lifetime - </string>
+    <string name="cust_name">Custodian (teacher):</string>
+    <string name="pic_taker">Picture Taker:</string>
+    <string name="user_name">User/Borrow:</string>
+    <string name="pic_date">Taken Date (Picture):</string>
+    <string name="prop_sta">Status - </string>
+    <string name="pic_cheese">Take Pictures</string>
+    <string name="choose_album">Choose from Album (NULL)</string>
+    <string name="got_it">Confirm (NULL)</string>
+    <string name="propSta_dty">Destroyed</string>
+    <string name="propSta_act">Active</string>
+    <string name="menu_logout">Logout</string>
+
+    //activity_camera
+    <string name="take_pic">Open Camera</string>
+    <string name="easyocr">OCR</string>
+    <string name="back">Back</string>
+
+    //status_report
+    <string name="login_success">Login Successfully! Welcome! IARC member!</string>
+    <string name="login_failure">Wrong password or ID name! Please try agagin!</string>
+    <string name="back_to_mainmenu">Back to main menu</string>
+
+</resources>
