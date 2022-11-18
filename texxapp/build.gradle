@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.texxtexx'
+    namespace 'com.example.texxapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.texxtexx"
+//        applicationId "com.example.texxapp"
         minSdk 19
         targetSdk 33
         versionCode 1

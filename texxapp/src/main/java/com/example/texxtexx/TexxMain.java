@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.texxapp.R;
 import com.googlecode.tesseract.android.TessBaseAPI;
 
 import java.io.File;
