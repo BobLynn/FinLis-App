@@ -118,7 +118,7 @@ public class CameraActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent digOnthis = new Intent();
-                digOnthis.setClass(CameraActivity.this, PropertyFormActivity.class);
+                digOnthis.setClass(CameraActivity.this, MainActivity.class);
                 startActivity(digOnthis);
                 finish();
             }

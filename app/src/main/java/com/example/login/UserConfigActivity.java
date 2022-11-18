@@ -66,7 +66,7 @@ public class UserConfigActivity extends AppCompatActivity implements View.OnClic
             case R.id.bBackToMain:
                 userLocalStore.clearUserData(); //清除賬戶資料
                 userLocalStore.setUserLoggedIn(false);  //登入狀態爲”非“(false)
-                startActivity(new Intent(this, PropertyFormActivity.class));
+                startActivity(new Intent(this, MainActivity.class));
                 break;
         }
     }

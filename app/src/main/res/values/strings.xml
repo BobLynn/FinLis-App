@@ -3,8 +3,8 @@
     <string name="login_label">Login</string>
     <string name="register_label">Register</string>
     <string name="main_menu_label">Property Form</string>
-    <string name="camera_label">camera_taking</string>
-    <string name="ocr_label">OCR Phase</string>
+    <string name="camera_label" translatable="false">activity_camera_taking</string>
+    <string name="ocr_label">OCR</string>
     <string name="texx_label">Tesseract Recognition</string>
     <string name="user_config_label">User Config</string>
 

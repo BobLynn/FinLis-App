@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class PropertyFormActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     public static final int CAMERA_PERM_CODE = 101;
     public static final int CAMERA_REQUEST_CODE = 102;
@@ -21,7 +21,7 @@ public class PropertyFormActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_property_form);
+        setContentView(R.layout.activity_main);
         
         initByXml();
         logoutButtonAct();
@@ -36,7 +36,7 @@ public class PropertyFormActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent gotoNewClass_1 = new Intent();
-                gotoNewClass_1.setClass(PropertyFormActivity.this, CameraActivity.class);
+                gotoNewClass_1.setClass(MainActivity.this, CameraActivity.class);
                 startActivity(gotoNewClass_1);
                 finish();
 
@@ -71,7 +71,7 @@ public class PropertyFormActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent gotoNewClass_2 = new Intent();
-                gotoNewClass_2.setClass(PropertyFormActivity.this, OCRActivity.class);
+                gotoNewClass_2.setClass(MainActivity.this, OCRActivity.class);
                 startActivity(gotoNewClass_2);
                 finish();
 
@@ -87,9 +87,9 @@ public class PropertyFormActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent gotoNewClass_3 = new Intent();
-                gotoNewClass_3.setClass(PropertyFormActivity.this, LoginActivity.class);
+                gotoNewClass_3.setClass(MainActivity.this, LoginActivity.class);
                 startActivity(gotoNewClass_3);
-                Toast.makeText(PropertyFormActivity.this,"中心人員，您已退出登入！", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"中心人員，您已退出登入！", Toast.LENGTH_SHORT).show();
                 finish();
             }
         };

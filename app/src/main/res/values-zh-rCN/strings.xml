@@ -2,7 +2,7 @@
     //activity_title
     <string name="login_label">账号登入</string>
     <string name="main_menu_label">财产资讯表单页面</string>
-    <string name="camera_label">camera_taking</string>
+    <string name="camera_label">activity_camera_taking</string>
 
     //activity_login
     <string name="login_comment">请输入账号及密码。</string>
