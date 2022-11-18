@@ -2,9 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!--獲取讀取權限，沒有這個就讀不到東西！沒有這個就讀不到東西！沒有這個就讀不到東西！-->
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<!--    獲取讀取權限，沒有這個就讀不到東西！沒有這個就讀不到東西！沒有這個就讀不到東西！-->
+<!--    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+<!--    <uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
 
 <!--    android:roundIcon="@mipmap/ic_launcher_round"-->
 <!--    android:icon="@mipmap/ic_launcher"-->
