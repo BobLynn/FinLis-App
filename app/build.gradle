@@ -48,21 +48,27 @@ dependencies {
     //import module(library) 'texxapp'
     implementation project(path: ':texxapp')
 
-//    testImplementation 'junit:junit:'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
     implementation "androidx.core:core-ktx:1.9.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-
     implementation 'com.google.mlkit:text-recognition-chinese:16.0.0-beta6'
     implementation 'com.google.android.gms:play-services-vision:20.1.3'
     implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    implementation 'com.google.http-client:google-http-client-android:'
+    implementation 'com.google.api-client:google-api-client-android:'
+    implementation 'com.google.api-client:google-api-client-gson:'
 
-//    implementation 'com.google.android.gms:play-services-mlkit-text-recognition'
 
-    implementation 'com.google.http-client:google-http-client-android:+'
+    //ML Kit 光學字元辨識套件
+    //中文
+    implementation 'com.google.mlkit:text-recognition-chinese:16.0.0-beta6'
+    //日文
+    implementation 'com.google.mlkit:text-recognition-japanese:16.0.0-beta6'
+    //韓文
+    implementation 'com.google.mlkit:text-recognition-korean:16.0.0-beta6'
 
-    implementation 'com.google.api-client:google-api-client-android:+'
 
-    implementation 'com.google.api-client:google-api-client-gson:+'
+    //implementation 'com.google.android.gms:play-services-mlkit-text-recognition'
+    //testImplementation 'junit:junit:'
 }

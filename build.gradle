@@ -30,7 +30,6 @@ dependencies {
 
     // To use Standard variant:
     'cz.adaptech:tesseract4android:4.1.1'
-
     'com.google.android.gms.vision.Detector'
 
     // To use OpenMP variant:
