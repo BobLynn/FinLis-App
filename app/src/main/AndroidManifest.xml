@@ -3,20 +3,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.login">
 
+
+<!--    系統存取權限區塊-->
+
+<!--    聯網權限-->
     <uses-permission android:name="android.permission.INTERNET"/>
 
+<!--    相機取用權限-->
     <uses-permission android:name="android.permission.CAMERA" />
+
+<!--    外部儲存裝置存取權限-->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
+
+<!--    應用程式Activity配置-->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="FinLis App"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="FinLis App"
         android:supportsRtl="true"
         android:theme="@style/Theme.Login"
         tools:replace="android:label,android:theme,android:icon">
+
+<!--        UserConfigActivity-->
         <activity
             android:name=".UserConfigActivity"
             android:exported="false"
@@ -25,6 +36,8 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+<!--        RegisterActivity-->
         <activity
             android:name=".RegisterActivity"
             android:exported="false"
@@ -33,33 +46,46 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+<!--        LoginActivity-->
         <activity
             android:name=".LoginActivity"
             android:exported="true"
             android:label="@string/login_label">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+<!--        CameraActivity-->
         <activity
             android:name=".CameraActivity"
             android:exported="false"
             android:label="@string/camera_label" />
+
+<!--        MainActivity-->
         <activity
             android:name=".MainActivity"
             android:exported="false"
             android:label="@string/main_menu_label" />
+
+<!--        OCRActivity-->
         <activity
             android:name=".OCRActivity"
             android:exported="false"
             android:label="@string/ocr_label" />
+
+<!--        Library: texxapp-->
         <activity
             android:name="com.example.texxtexx.TexxMain"
             android:exported="false"
             tools:replace="android:exported" /> <!-- android:label="@string/texx_name" -->
+
+<!--        Implementation-->
         <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+
+
     </application>
 
 </manifest>
