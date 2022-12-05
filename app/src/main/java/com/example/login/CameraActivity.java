@@ -17,38 +17,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-//public class CameraActivity extends AppCompatActivity {
-//
-//    Button backtomenu;
-//
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_camera);
-//
-//        initButtontoMenu();
-//    }
-//
-//    void initButtontoMenu(){
-//        backtomenu = (Button) findViewById(R.id.backBtn);
-//
-//        View.OnClickListener backtomenuOc = new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent digOnthis = new Intent();
-//                digOnthis.setClass(CameraActivity.this, MenuActivity.class);
-//                startActivity(digOnthis);
-//                finish();
-//            }
-//        };
-//        backtomenu.setOnClickListener(backtomenuOc);
-//    }
-//}
-
-
-
-
-
 public class CameraActivity extends AppCompatActivity {
 
     public static final int CAMERA_PERM_CODE = 101;

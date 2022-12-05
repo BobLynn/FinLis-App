@@ -50,12 +50,8 @@
 <!--        LoginActivity-->
         <activity
             android:name=".LoginActivity"
-            android:exported="true"
-            android:label="@string/login_label">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="false">
+<!--            android:label="@string/login_label"-->
         </activity>
 
 <!--        CameraActivity-->
@@ -67,8 +63,15 @@
 <!--        MainActivity-->
         <activity
             android:name=".MainActivity"
-            android:exported="false"
-            android:label="@string/main_menu_label" />
+            android:exported="true"
+            android:label="@string/main_menu_label">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
 
 <!--        OCRActivity-->
         <activity
